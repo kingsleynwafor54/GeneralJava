@@ -16,13 +16,6 @@ public class Position {
         toString += "\nCurrent column Position :" + columnPosition;
         return toString;
     }
-
-    //    @Override
-//    public boolean equals(Object obj){
-//        if (this.columnPosition==obj.columnPosition)
-//            return super.equals(obj);
-//
-//    }
     public void increaseColumnPositionBy(int numberOfSteps) {
         columnPosition += numberOfSteps;
     }

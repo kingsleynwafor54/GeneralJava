@@ -101,4 +101,10 @@ public class TurtleTest {
         turtle.moveForwardBy(2);
         assertEquals(new Position(0, 2), turtle.getCurrentPosition());
     }
+//@Test
+//    void turtleCanSetPenToPenUp(){
+//        turtle.isPenUp();
+//        assertEquals()
+//}
+
 }
