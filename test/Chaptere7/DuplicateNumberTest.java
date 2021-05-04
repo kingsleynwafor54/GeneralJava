@@ -55,7 +55,7 @@ public class DuplicateNumberTest {
             duplicateNumber.push(50);
             duplicateNumber.push(60);
           //  duplicateNumber.push(30);
-            assertEquals(2bn  , duplicateNumber.arrayListSize());
+            assertEquals(2, duplicateNumber.arrayListSize());
         }
 catch(ArrayIndexOutOfBoundsException e){
     System.out.println("Olodo");

@@ -89,7 +89,7 @@ public class Tictactoe {
                 System.out.println( "Congratulations Player1 wins!!!");
                break;
             }
-            else if (playerTwo.containsAll(winningCheck)) {
+            if (playerTwo.containsAll(winningCheck)) {
                 System.out.println( "Congratulation Player2 wins!!!");
                 break;
             } else if (playerOne.size() + playerTwo.size() == 9) {
